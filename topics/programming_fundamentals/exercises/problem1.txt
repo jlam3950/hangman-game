@@ -1,0 +1,7 @@
+Given an array of numbers find if the array contains any prime number or not
+For example: 
+
+let a = [4,6,12,45,13,77,20] for this array your program should print "true" because it has 13 which is a prime number
+let a = [45,22,100] your program should print "false" because it doesn't contain a prime number
+
+Note: A prime number is a number > 1 which has only two factors. the number 1 and the number itself
