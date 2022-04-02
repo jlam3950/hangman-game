@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+
+
+.gridcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-items > div{
+    border: 1px solid black;
+    width: 100%; //setting this to 100% creates the cell
+}
+
+/* .flex-items > div{
+    border: 1px solid black;
+    justify-content: space-around;
+} */
+
+/* .container{
+    border: 1px solid black;
+    width: 100%;
+} */
+
+/* #flexcontainer{
+    border: 1px solid black;
+}
+} */
