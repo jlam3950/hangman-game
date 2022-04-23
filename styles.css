@@ -1,1 +1,40 @@
+*{
+    box-sizing: border-box;
+    color: #fff;
+}
 
+body{
+    background: linear-gradient(45deg, blue, white);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#letters{
+    height: 25vh;
+    margin: 2em;
+}
+
+#guesses{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#alphabetBlock{
+    border: 1px solid #fff;
+    padding: 1em;
+    border-radius: 20px;
+    display: inline-block;
+    background: rgb(255, 255, 255, .5);
+}
+
+#alphabetBlock:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
